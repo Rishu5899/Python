@@ -22,7 +22,9 @@ fees = int(input("Enter your Collage Fees"))
 examfees = int(input("Enter your Examfee"))
 
 if (fees + examfees < 50000):
-    print("Collage is Expensive")
+    #print("Collage is Expensive")
+    if (fees + examfees < 10000):
+        print("Collage")
 
 elif (fees + examfees > 80000):
     print("Collage is Selected")
