@@ -11,13 +11,15 @@ d = print("Enter 4 for Division")
 # g = int(input("Enter the option"))
 raghu = int(input("Enter Digit only"))
 
-if a == 1:
-  print(x+y,a,raghu)
-elif s == 2: 
-    print(x-y,s,raghu)
-elif m == 3:
-  print(x*y,m,raghu)
-elif d == 4:
-  print(x//y,d,raghu)
-else:
-   print("nvjitji")
+match raghu:
+
+     case 1:
+      print(x+y,a,raghu)
+     case 2: 
+       print(x-y,s,raghu)
+     case 3:
+      print(x*y,m,raghu)
+     case 4:
+      print(x//y,d,raghu)
+     case _:
+      print("nvjitji")
