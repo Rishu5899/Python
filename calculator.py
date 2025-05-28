@@ -14,12 +14,12 @@ raghu = int(input("Enter Digit only"))
 match raghu:
 
      case 1:
-      print(x+y,a,raghu)
+      print(x+y)
      case 2: 
-       print(x-y,s,raghu)
+       print(x-y)
      case 3:
-      print(x*y,m,raghu)
+      print(x*y)
      case 4:
-      print(x//y,d,raghu)
+      print(x//y)
      case _:
       print("nvjitji")

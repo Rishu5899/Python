@@ -18,5 +18,8 @@ print(type("RISHU"))
 print(type(5.6))
 
 #Write a program to find greator and less than number using if_else ladder.
-
-
+add = int(input("Enter the number"))
+if(add > 0):
+        print("Number is big")
+elif(add < 0):
+    print("Number is small")
