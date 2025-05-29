@@ -1,10 +1,10 @@
 x = int(input("Enter your First Number"))
 y = int(input("Enter your Second Number"))
 
-a = print("Enter 1 for Addition")
-s = print("Enter 2 for Subtraction")
-m = print("Enter 3 for Multiplication")
-d = print("Enter 4 for Division")
+print("Enter 1 for Addition")
+print("Enter 2 for Subtraction")
+print("Enter 3 for Multiplication")
+print("Enter 4 for Division")
 
 
 
