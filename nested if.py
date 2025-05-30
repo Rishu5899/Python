@@ -8,7 +8,7 @@ else:
 
 year = int(input("Enter your Birth Year: "))
 
-if (year % 4 == 0): 
+if (year % 4 == 0 and year % 100 == 0 and year % 400 == 0): 
     print("You were born in a leap year:" ,year)
 else:
     print("You were not born in a leap year" ,year)
