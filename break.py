@@ -26,9 +26,9 @@
 
 
 
-
-
 def Prime(i):
+
+ i = int(input("Enter the number"))
  if(i%1==0 and i%i==0 and i%2!=0):
     # if(i%2==0):
      for n in range (1):
@@ -36,10 +36,10 @@ def Prime(i):
  else:
   print("Number is not prime")
 
-# print("You want to exit the program")
-# o = str(input("Enter your Choice Yes or No "))
-# yes = Prime(o)
-# no = ()
+print("You want to exit the program")
+o = str(input("Enter your Choice Yes or No "))
+if "yes" in o:
+  print (Prime)
+no = ()
 
-i = int(input("Enter the number"))
-Prime(i)
+
