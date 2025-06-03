@@ -11,15 +11,15 @@
 #     print(b)
 #     b = b - 1
 
-c = int(input("Enter the Number"))
-while (c<=1000):
-    print(c)
-    c = c + 1
-    if(c == 100):
-        break
-else:
-    print("Number Greator than 1000")
+# c = int(input("Enter the Number"))
+# while (c<=1000):
+#     print(c)
+#     c = c + 1
+#     if(c == 100):
+#         break
+# else:
+#     print("Number Greator than 1000")
 
 ta = int(input("Enter the Number = "))
-for ta in range(10):
-    print(ta * ta,"=" ,ta + 1)
+for n in range(1,11):
+    print(ta, "*" ,n,"=", n * ta)
