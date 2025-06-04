@@ -1,23 +1,52 @@
-print("Welcome to KBC Game")
-print("\n Rules for the Game" 
-      "\n Question will be provided on the Screen" \
-      "\n Five question will be provided to you" \
-      "\n If you give two wrong answer " \
-      "\n You will be eliminated from the Game" \
-      "\n If you give Correct answer of First Question Then you will win 10,000." \
-      "\n If you give Correct answer of Second Question Then you will win 30,000." \
-      "\n If you give Correct answer of Third Question Then you will win 50,000." \
-      "\n If you give Correct answer of Fourth Question Then you will win 1,00,000." \
-      "\n If you give Correct answer of Fifth Question Then you will win 2,00,000.")
+#KBC Game
+Questions = [["Which language was used to create Facebook?","Python","Java","C++","HTML",]
+["Which language was used to create Whatsapp?","Python","Java","C++","HTML",]
+["Which language was used to create Instagram?","Python","Java","C++","HTML",]
+["Which language was used to create Snapchat?","Python","Java","C++","HTML",]
+["Which language was used to create Gmail?","Python","Java","C++","HTML",]
+]
+levels = [1000,3000,6000,12000,24000]
+money = 0
+for i in range(len(Questions)):
+    Question  = Questions[i]
+    print(f"Question no 1 is for {levels[0]}")
+    print( f"{Question[0]}")
+    print(f"a.{Question[1]}        b.{Question[2]}")
+    print(f"c.{Question[3]}        d.{Question[4]}")
+    answer = str(input("Enter your Option "))
+    if answer == Question[2]:
+        print(f"Your answer is correct you won {levels[0]}")
+        if money (i == 0):
+           money == 1000
 
-Question = ["Who is Prime Minister of India"]
-print(Question)
-Answer   = ["Narendra Modi"]
-Choice   = str(input(""))
-print(Choice)
-for n in Answer:
-    if Choice in Answer:
-        print("Your Answer is Correct. You Won 10,000")
-        print(Choice+10000)
+        if money (i == 1):
+           money == 3000
+
+        if money (i == 2):
+           money == 6000
+
+        if money (i == 3):
+           money == 12000
+
+        if money (i == 4):
+           money == 24000  
+           break
     else:
-        print("no")
+        print("Your answer is wrong")
+        break
+
+
+    # print(f"Question no 2 is for {levels[1]}")
+    # print( f"{Question[0]}")
+    # print(f"a.{Question[1]}        b.{Question[2]}")
+    # print(f"c.{Question[3]}        d.{Question[4]}")
+    # ans = str(input("Enter your Option "))
+    # if ans == Question[2]:
+    #     print(f"Your answer is correct you won {levels[1]}")
+    #     if money (i == 1):
+    #        money == 3000
+    # else:
+    #     print("Your answer is wrong")
+    #     break
+    
+    
