@@ -1,6 +1,6 @@
 
 j = int(input("Enter any Number :"))
-i = 1
+
 
 
 
