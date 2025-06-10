@@ -31,7 +31,7 @@
 i = int(input("Enter the number"))
 if(i%1==0 and i%i==0 and i%2!=0):
     # if(i%2==0):
-     for i in range (1) :
+     for i in range (1,30) :
 
       print("Number is prime")
 else:

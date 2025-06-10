@@ -10,6 +10,8 @@ print (Alochol[0])
 print (Alochol[:])
 print (Alochol[0:7:2])
 Fruit = ["Apple","Banana","Pineapple","Chickoo"]
+for Fruit in Fruit:
+    print("Banana")
 if "Banana" in Fruit:
     print("yes")
 else:
