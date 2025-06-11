@@ -5,14 +5,13 @@ print (type(f"{3*60}"))
 print(f"{43*21}")
 go = "Rishu"
 print (f"{{go}}")
-# def MULTIPLICATION(table):
-# table = ol
-# print(table)
-# for i in range(1,11):
-#       print(table,"*",i,"=",i*table)
 
-# ol = (input("Enter your number for table"))    
-# MULTIPLICATION(table)
+table = int(input("Enter your number for table"))  
+for i in range(1,11):
+      print(table,"*",i,"=",table*i)
+
+
+
 def addition(i,f):
     '''This the code of Addition'''
     print(i+f)
