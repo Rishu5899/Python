@@ -1,22 +1,24 @@
 #KBC Game
-Questions = [["Which language was used to create Facebook?","Python","Java","C++","HTML",]
-["Which language was used to create Whatsapp?","Python","Java","C++","HTML",]
-["Which language was used to create Instagram?","Python","Java","C++","HTML",]
-["Which language was used to create Snapchat?","Python","Java","C++","HTML",]
-["Which language was used to create Gmail?","Python","Java","C++","HTML",]
+Questions = [["Which language was used to create Facebook?","Python","Java","C++","HTML",4],
+["Which language was used to create Whatsapp?","Python","Java","C++","HTML",],
+["Which language was used to create Instagram?","Python","Java","C++","HTML",],
+["Which language was used to create Snapchat?","Python","Java","C++","HTML",],
+["Which language was used to create Gmail?","Python","Java","C++","HTML",],
 ]
 levels = [1000,3000,6000,12000,24000]
 money = 0
-for i in range(len(Questions)):
+for i in range(0,len(Questions)):
     Question  = Questions[i]
-    print("Question no 1 is for {levels[0]}")
-    print( f"{Question[0]}")
-    print(F"a.{Question[1]}        b.{Question[2]}")
-    print(F"c.{Question[3]}        d.{Question[4]}")
-    answer = str(input("Enter your Option "))
-    if answer == Question[2]:
-        money += 1000
-        print(f"Your answer is correct you won {levels[0]}")
+    print(f"Question no 1 is for {levels[0]}")
+    print( f"{Question[i]}")
+    print(f"a.{Question[1]}        b.{Question[2]}")
+    print(f"c.{Question[3]}        d.{Question[4]}")
+    answer = int(input("Enter your Option "))
+    if (answer == Question[-1]):
+        print(f"Your answer is correct you won {levels[i]}")
+        if(i==1):
+         money += 1000
+       
 print(f"Total Price:{money}")
 
 
