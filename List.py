@@ -1,5 +1,5 @@
 # animal = ["Tiger","Lion","Giraffe","Deer","Camel","Ant"]
-Alochol = ["Red Label","Monkey Shoulder","Magic Moment","Jaisalmer","100 Pipers","Teacher's","MC Dowells"]
+# Alochol = ["Red Label","Monkey Shoulder","Magic Moment","Jaisalmer","100 Pipers","Teacher's","MC Dowells"]
 # print (type(len(animal)))
 # print("\n" ,animal)
 # print (Alochol[0])
@@ -8,11 +8,21 @@ Alochol = ["Red Label","Monkey Shoulder","Magic Moment","Jaisalmer","100 Pipers"
 # print (Alochol[6-6])
 # print (Alochol[0])
 # print (Alochol[:])
-print (Alochol[0:7:2])
+# print (Alochol[0:7:2])
 Fruit = ["Apple","Banana","Pineapple","Chickoo"]
-for Fruits in range(1):
-    print("Banana")
+for Fruits in range(3):
+    s = str(input("Enter your option"))
 if "Banana" in Fruit:
+    print("yes")
+else:
+    print("no")
+
+if "Apple" in Fruit:
+    print("yes")
+else:
+    print("no")
+
+if "Pineapple" in Fruit:
     print("yes")
 else:
     print("no")
