@@ -34,3 +34,9 @@ print(i[-1])
 o = "Electronic"
 print(o[1:8:2])
 
+# Write a Python program to skip 'banana' in a list using the continue statement. 
+List = ['apple', 'banana', 'mango']
+for x in List:
+    if x =='banana':
+        continue
+    print(x)
