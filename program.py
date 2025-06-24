@@ -35,8 +35,15 @@ o = "Electronic"
 print(o[1:8:2])
 
 # Write a Python program to skip 'banana' in a list using the continue statement. 
-List = ['apple', 'banana', 'mango']
-for x in List:
+# List = ['apple', 'banana', 'mango']
+# for x in List:
+#     if x =='banana':
+#         continue
+    # print(x)
+#  Write a Python program to stop the loop once 'banana' is found using the break statement.
+Listone = ['apple', 'banana', 'mango']
+for x in Listone:
     if x =='banana':
-        continue
+        print("Banana Found, You are out of the loop")
+        break
     print(x)
