@@ -1,11 +1,11 @@
-# u = input("Enter the number")
-# try:
-#  for w in range(1,11):
-#     print(f"{int(u)}*{w}={int(u)*w}")
-# except:
-#   print("Invalid Input")
+u = input("Enter the number")
+try:
+ for w in range(1,11):
+    print(f"{int(u)}*{w}={int(u)*w}")
+except:
+  print("Invalid Input")
 
-# print("Your Program is done")
+print("Your Program is done")
 
 try:
   y = int(input("Enter the number"))
@@ -16,3 +16,4 @@ except ValueError:
 
 except IndexError:
   print("You Entered Wrong Index")
+

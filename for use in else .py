@@ -1,5 +1,5 @@
 e = int(input("Enter your number"))
-for a in  range(11):
+for a in  range(1,11):
     print(e,"*",a,"=",a*e)
     if e == 2:
         break   

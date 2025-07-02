@@ -8,11 +8,10 @@ print("Enter 6 for Soda Order")
 print("Enter 7 for Water Order")
 print("Enter 8 for Chai Order")
 
+da=(input("Enter your Order : "))
 
 
-for i in range(3):
- da=int(input(f"Enter your Order : {i+1}"))
- match da:
+match da:
     case 1:
      vadapav = int(input("Enter your Quantity"))
      if( vadapav < 3):

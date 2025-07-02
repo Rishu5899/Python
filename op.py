@@ -1,27 +1,27 @@
-# e = int(input("Enter the number"))
-# e += int(input("Enter the second number"))
-# print(e)
-# q = int(input("Enter the number"))
-# q -= int(input("Enter the second number"))
-# print(q)
-# w = 3
-# t = 5
-# print(w!=t)
-# y = 3
-# c = 3 
-# print(y>=c)
+e = int(input("Enter the number"))
+e += int(input("Enter the second number"))
+print(e)
+q = int(input("Enter the number"))
+q -= int(input("Enter the second number"))
+print(q)
+w = 3
+t = 5
+print(w!=t)
+y = 3
+c = 3 
+print(y>=c)
 # # how IS operator works 
-# r = ["Rabbit","Rat"]
-# u = ["Rabbit","Rat"]
-# i = r
-# print(i is r)
-# print(id(r))
-# print(id(u))
-# print(id(i))
+r = ["Rabbit","Rat"]
+u = ["Rabbit","Rat"]
+i = r
+print(i is r)
+print(id(r))
+print(id(u))
+print(id(i))
 # Membership Operator
-# o = ["Eagle","Sparrow"]
-# print ( "Eagle"  in o)
-# print("Dad" not in o)
+o = ["Eagle","Sparrow"]
+print ( "Eagle"  in o)
+print("Dad" not in o)
 
 #  Operator Precedence
 l = 5

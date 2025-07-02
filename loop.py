@@ -1,6 +1,6 @@
-no = int(input("Enter the Number"))
-for no in range(no,30,3):
-    print(no)
+# no = int(input("Enter the Number"))
+# for no in range(no,30,3):
+#     print(no)
 
 # n = int(input("Enter the Number"))
 # for n in range(n):

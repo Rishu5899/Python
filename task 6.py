@@ -10,3 +10,4 @@ if s>0:
     print("Greator Number")
 else:
     print("Less Number")
+

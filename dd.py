@@ -1,0 +1,2 @@
+s = ("Rishu")
+print(s)

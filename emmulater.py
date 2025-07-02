@@ -3,7 +3,7 @@ for x in a:
     print(x)
     if (x == 21):
         print("Do")
-        break
+        
 
 mark = [14,25,47,65,11,24]
 for index, mark in enumerate(mark):

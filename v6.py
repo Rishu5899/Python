@@ -7,5 +7,5 @@ try:
   for j in range(1):   
     print(f*f)
 except ValueError:
-  print("You didn't enter the integer","f")
+  print("You didn't enter the integer")
 

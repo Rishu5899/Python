@@ -43,3 +43,5 @@ print(t)
 y = ["Table","Chair","Sofa","Dinner table","Tv set","Set","Mirror"]
 for x in y:
     print(x)
+
+
